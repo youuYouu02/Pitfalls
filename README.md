@@ -1,1 +1,1 @@
-# Pitfalls
+# Pitfalls and Notes
