@@ -25,3 +25,12 @@
 
 - `git checkout -- <file_name>`：撤销已修改未 add 的部分的修改，即回到最近一次 add
 - `git rm --cached <file_name>` ：撤销已 add 未 commit 的 add，即回到最近一次 commit
+
+#### 4 强制对齐
+
+- ```
+  git fetch --all
+  git reset --hard origin/master
+  ```
+
+- 强制本地的 working tree 和远端的 master 最新 commit 对齐；会导致本地当前分支没提交的 commit 丢失；
